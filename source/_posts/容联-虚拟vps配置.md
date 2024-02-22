@@ -6,16 +6,21 @@ tags: 工作
 
 ## 网址
 
-[练习-DEMO-登录](http://192.168.159.129:8080/ngs/login?mode=1&q=crm)
+[练习-DEMO-登录](http://e.wal.icu:8082/ngs/login?mode=1&q=crm)
 
 - 账号：Elite
 - 密码：1
 
-[练习-DEMO - 管理台登录](http://192.168.159.129:8080/ngs/admin/login)
+[练习-DEMO - 管理台登录](http://e.wal.icu:8082/ngs/admin/login)
 
 - 账号：Elite
 - 用户组：系统组
 - 密码：1
+
+[NACOS - 管理台登录](http://e.wal.icu:8848/nacos/#/login)
+
+- 账号：nacos
+- 密码：Letmein_0308
 
 ## 虚拟vps配置
 
@@ -34,6 +39,8 @@ cd /apps/nacos/bin/
 ./startup.sh -m standalone
 cd /apps/ngs2.6/
 ./restart.sh
+cd /apps/groovy/
+./startup.sh
 ```
 
 ## 许可
